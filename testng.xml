@@ -1,0 +1,17 @@
+<suite name = "Suite">
+
+    <test name = "FirefoxTest">
+        <parameter name = "browser" value = "firefox"/>
+        <classes>
+            <class name = "com.ip.grid.Client"/>
+        </classes>
+    </test>
+
+    <test name = "ChromeTest">
+        <parameter name = "browser" value = "chrome"/>
+        <classes>
+            <class name = "com.ip.grid.Client"/>
+        </classes>
+    </test>
+
+</suite>
